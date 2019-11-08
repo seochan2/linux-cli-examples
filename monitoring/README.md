@@ -14,3 +14,8 @@ Commands used to check real-time OS status
 Commands used to check CPU, DISK I/O, Memory Used
 
 * sar -u 3 10
+
+Commands used to check CPU Utilization, Process Info
+
+* vmstat 1 10 
+
