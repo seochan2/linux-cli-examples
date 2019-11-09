@@ -19,3 +19,6 @@ Commands used to check CPU Utilization, Process Info
 
 * vmstat 1 10 
 
+Commands used to check CPU Utilization sorted in descending order
+
+* ps aux --sort=-%cpu
