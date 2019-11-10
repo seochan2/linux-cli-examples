@@ -22,3 +22,7 @@ Commands used to check CPU Utilization, Process Info
 Commands used to check CPU Utilization sorted in descending order
 
 * ps aux --sort=-%cpu
+
+Commands used to check storage performance 
+
+* iostat -dx 5 
