@@ -26,3 +26,7 @@ Commands used to check CPU Utilization sorted in descending order
 Commands used to check storage performance 
 
 * iostat -dx 5 
+
+Commands used to check login failed by account
+
+* perl -ne 'print "$1\n" if(/Failed password for (\w.+) from/)' /var/log/secure | sort | uniq -c | sort -rn |head -10
