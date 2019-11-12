@@ -30,3 +30,7 @@ Commands used to check storage performance
 Commands used to check login failed by account
 
 * perl -ne 'print "$1\n" if(/Failed password for (\w.+) from/)' /var/log/secure | sort | uniq -c | sort -rn |head -10
+
+Commands used to check login failed by IP
+
+* perl -ne 'print "$1\n" if(/Failed password\D+((\d+\.){3}\d+)/)' /var/log/secure | sort | uniq -c | sort -rn |head -10
