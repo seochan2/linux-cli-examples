@@ -38,3 +38,8 @@ Commands used to check login failed by IP
 Commands used to check server uptime
 
 * uptime
+
+Commands used to check OS level error message
+
+* dmesg | tail
+ 
