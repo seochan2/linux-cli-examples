@@ -43,3 +43,6 @@ Commands used to check OS level error message
 
 * dmesg | tail
  
+Commands used to check the message for logs of the kernel and OS standard processes
+
+* cat /var/log/messages |tail
