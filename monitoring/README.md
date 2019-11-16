@@ -46,3 +46,7 @@ Commands used to check OS level error message
 Commands used to check the message for logs of the kernel and OS standard processes
 
 * cat /var/log/messages |tail
+ 
+Commands used to check ssh connection failure information through secure log
+
+* cat /var/log/secure |tail
